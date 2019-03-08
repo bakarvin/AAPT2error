@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">duniastartup</string>
+    <string name="radio_investor">investor</string>
+    <string name="radio_startup">startup</string>
+    <string name="pilih">pilih</string>
+    <string name="daftar">daftar</string>
+    <string name="LP2_">Jangan takut, Cukup masukan email yang kamu daftarkan
+        kami akan kirim kan sebuah email untuk mereset password kamu</string>
+    <string name="KP2_">Kami telah mengirim sebuah Email untuk mereset password akun mu</string>
+    <string name="KP3_">Tidak menerima Email kami ?</string>
+    <string name="KP4_">Pastikan bahwa anda juga memeriksa folder spam, atau</string>
+
+    <!-- slide -->
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    mulai, pasarkan, temukan, hasilkan
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">MULAI</string>
+    <string name="slide_1_desc">Mulailah Sesuatu.</string>
+
+    <string name="slide_2_title">PASARKAN</string>
+    <string name="slide_2_desc">Pasarkan konsep serta idemu.</string>
+
+    <string name="slide_3_title">TEMUKAN</string>
+    <string name="slide_3_desc">Temukan rekan usahamu.</string>
+
+    <string name="slide_4_title">HASILKAN</string>
+    <string name="slide_4_desc">Dapatkan hasil dari apa yang sudah kamu hasilkan.</string>
+
+    <string name="about">Dunia Startup adalah aplikasi yang sedang beekembang dan akan terus dikembangkan.</string>
+
+    <string name="twitterUsername">\@twitter</string>
+
+</resources>

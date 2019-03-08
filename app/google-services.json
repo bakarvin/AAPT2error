@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54495260522",
+    "firebase_url": "https://catalogstartup.firebaseio.com",
+    "project_id": "catalogstartup",
+    "storage_bucket": "catalogstartup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54495260522:android:49c6db98e477530f",
+        "android_client_info": {
+          "package_name": "id.ac.pradita.it.duniastartup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54495260522-e3lepmfjiu47mdm7eetk1nc38ll8gnc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.pradita.it.duniastartup",
+            "certificate_hash": "100cbe260d30fdd82c6dbf93f9f19ee58c35e02b"
+          }
+        },
+        {
+          "client_id": "54495260522-4n60ps2i6p2fps1pnemrtrktcjg4004c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnPLXWiROJLRN3gwvtLHiU2dGSe0KZgHk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54495260522-4n60ps2i6p2fps1pnemrtrktcjg4004c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
