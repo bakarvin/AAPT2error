@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bekgron2"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Nama        :"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="50dp"
+                    android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_edittext"
+                android:hint="Nama"
+                android:singleLine="true"
+                android:id="@+id/txtNameRegis"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Lahir   :"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/border_edittext"
+                android:singleLine="true"
+                android:id="@+id/txtTanggal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kelamin   :"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#fff"
+                    android:textAlignment="center" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="30dp">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/rdGroup">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="Laki - laki"
+                            android:textColor="@color/white"
+                            android:onClick="rbClick"
+                            android:id="@+id/rbLaki"
+                            android:checked="false"
+                            android:background=""/>
+
+                        <View
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Perempuan"
+                            android:textColor="@color/white"
+                            android:onClick="rbClick"
+                            android:id="@+id/rbPerempuan"
+                            android:checked="false"
+                            android:background=""/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email        :"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:hint="Example@mail.com"
+                android:singleLine="true"
+                android:id="@+id/txtEmailRegis"/>
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No.Telp     :"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_edittext"
+                android:hint="08xxxxxxxx"
+                android:singleLine="true"
+                android:id="@+id/txtTelpRegis"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="Password  :  "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_edittext"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:singleLine="true"
+                android:id="@+id/txtPassRegis"/>
+
+            <Button
+                android:id="@+id/buttonIsi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/linlay"
+                android:background="@color/green_invoice"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/daftar" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
